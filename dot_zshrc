@@ -114,6 +114,24 @@ export NVM_DIR="$HOME/.nvm"
 # Added by Jetski
 export PATH="/Users/darshanas/.jetski/jetski/bin:$PATH"
 
+# Added Jetski CLI
+alias jetski='/usr/local/bin/jetski'
+
 # Flutter pub executables
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 . "$HOME/.local/bin/env"
+export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
+export PATH="$JAVA_HOME/bin:$PATH"
+
+# Added by Antigravity IDE
+export PATH="/Users/darshanas/.antigravity-ide/antigravity-ide/bin:$PATH"
+
+# Hermes Agent (Docker container wrapper)
+hermes() {
+  if [ -t 0 ] && [ -t 1 ]; then
+    docker exec -it hermes hermes "$@"
+  else
+    docker exec -i hermes hermes "$@"
+  fi
+}
+
