@@ -2,8 +2,8 @@
   // =========================================================================
   // Theme & Appearance
   // =========================================================================
-  "workbench.colorTheme": "Community Material Theme Ocean",
-  "workbench.preferredDarkColorTheme": "Community Material Theme Ocean",
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.preferredDarkColorTheme": "Tokyo Night",
   "workbench.iconTheme": "material-icon-theme",
   "window.autoDetectColorScheme": false,
   "window.nativeTabs": true,
@@ -12,13 +12,6 @@
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.labelFormat": "short",
   "workbench.editor.useModal": "some",
-  "workbench.colorCustomizations": {
-    "[Community Material Theme Ocean]": {
-      "sideBar.foreground": "#8f93a2",
-      "statusBar.foreground": "#8f93a2",
-      "activityBar.foreground": "#ffffff"
-    }
-  },
 
   // =========================================================================
   // Editor & Typography
